@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 
 
-def load_convert_dict():
-    ws294 = pd.read_csv('../data/c_elegans.PRJNA13758.WS294.geneIDs.txt', header=None, index_col=None)
+def load_convert_dict(filepath='../data/c_elegans.PRJNA13758.WS294.geneIDs.txt'):
+    ws294 = pd.read_csv(filepath, header=None, index_col=None)
     convert_dict = dict()
     for _, row in ws294[[1, 2, 3, 4, 5]].iterrows():
         if row[4] == 'Dead':
@@ -19,8 +19,8 @@ def load_convert_dict():
     return convert_dict
 
 
-def zhu_ref_data():
-    target_df = pd.read_csv('../data/Zhu_et_al.txt', header=0, index_col=5, sep='\t')
+def zhu_ref_data(filepath='../data/Zhu_et_al.txt'):
+    target_df = pd.read_csv(filepath, header=0, index_col=5, sep='\t')
 
     # table restructure
     genename_rows = [True if type(x) is str and 'GN=' in x else False for x in target_df.index]
@@ -44,8 +44,8 @@ def zhu_ref_data():
     return target_df, labels
 
 
-def load_cell_to_group():
-    markers = pd.read_csv('../data/abbas_cell_markers.csv', index_col=None, header=0)
+def load_cell_to_group(filepath='../data/abbas_cell_markers.csv'):
+    markers = pd.read_csv(filepath, index_col=None, header=0)
 
     marker_genes_convert = {}
     last_type = ''
