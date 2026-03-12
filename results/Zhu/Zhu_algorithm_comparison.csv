@@ -1,0 +1,19 @@
+min_markerscore,min_marker,n_marker_genes,n_ref_cell_types,algorithm,tag,n_cell_types,top1_tissue,top1_prop,top2_tissue,top2_prop,top3_tissue,top3_prop,mean_within_day_corr_D1
+0.0,0,1122,177,LSVR,ms0.00_mm00_lsvr_C0.01_e0.1,177,Neurons,0.3804,Germline,0.0768,Muscle,0.0529,0.8484
+0.0,0,1122,177,LSVR,ms0.00_mm00_lsvr_C0.001_e0.1,177,Neurons,0.3032,Germline,0.0947,Muscle,0.0817,0.9107
+0.0,5,1122,150,LSVR,ms0.00_mm05_lsvr_C0.01_e0.1,150,Neurons,0.3112,Germline,0.0837,Muscle,0.0678,0.8379
+0.0,5,1122,150,LSVR,ms0.00_mm05_lsvr_C0.001_e0.1,150,Neurons,0.245,Germline,0.1038,Muscle,0.0935,0.916
+0.0,10,1122,112,LSVR,ms0.00_mm10_lsvr_C0.01_e0.1,112,Neurons,0.2979,Germline,0.1052,Muscle,0.093,0.7953
+0.0,10,1122,112,LSVR,ms0.00_mm10_lsvr_C0.001_e0.1,112,Neurons,0.2457,Germline,0.1239,Muscle,0.1153,0.9083
+0.04,0,789,161,LSVR,ms0.04_mm00_lsvr_C0.01_e0.1,161,Neurons,0.3403,Muscle,0.0715,Intestine,0.0615,0.854
+0.04,0,789,161,LSVR,ms0.04_mm00_lsvr_C0.001_e0.1,161,Neurons,0.2578,Muscle,0.0883,Uterine-vulval cells,0.0548,0.9224
+0.04,5,789,74,LSVR,ms0.04_mm05_lsvr_C0.01_e0.1,74,Muscle,0.1513,Glia,0.1373,Intestine,0.1114,0.8143
+0.04,5,789,74,LSVR,ms0.04_mm05_lsvr_C0.001_e0.1,74,Muscle,0.1477,Glia,0.0887,Intestine,0.0762,0.9267
+0.04,10,789,55,LSVR,ms0.04_mm10_lsvr_C0.01_e0.1,55,Muscle,0.17,Glia,0.1504,Intestine,0.128,0.7893
+0.04,10,789,55,LSVR,ms0.04_mm10_lsvr_C0.001_e0.1,55,Muscle,0.1714,Intestine,0.0892,Glia,0.0709,0.879
+0.08,0,516,129,LSVR,ms0.08_mm00_lsvr_C0.01_e0.1,129,Neurons,0.201,Muscle,0.1191,Glia,0.1184,0.8742
+0.08,0,516,129,LSVR,ms0.08_mm00_lsvr_C0.001_e0.1,129,Neurons,0.1751,Muscle,0.0969,Glia,0.0747,0.943
+0.08,5,516,52,LSVR,ms0.08_mm05_lsvr_C0.01_e0.1,52,Muscle,0.1768,Intestine,0.1408,Glia,0.1406,0.8783
+0.08,5,516,52,LSVR,ms0.08_mm05_lsvr_C0.001_e0.1,52,Muscle,0.1377,Intestine,0.1001,Uterine-vulval cells,0.0799,0.9377
+0.08,10,516,27,LSVR,ms0.08_mm10_lsvr_C0.01_e0.1,27,Muscle,0.2088,Intestine,0.2036,Uterine-vulval cells,0.1024,0.8935
+0.08,10,516,27,LSVR,ms0.08_mm10_lsvr_C0.001_e0.1,27,Muscle,0.2075,Uterine-vulval cells,0.1133,Spermatheca,0.1087,0.939
