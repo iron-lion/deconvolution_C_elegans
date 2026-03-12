@@ -1,0 +1,5 @@
+min_markerscore,min_marker,n_marker_genes,n_ref_cell_types,algorithm,tag,n_cell_types,top1_tissue,top1_prop,top2_tissue,top2_prop,top3_tissue,top3_prop,mean_within_day_corr_D1
+0.04,0,5644,180,LSVR,ms0.04_mm00_lsvr_C0.01_e0.1,180,Muscle,0.1374,Germline,0.122,Gonadal,0.1153,0.8935
+0.04,0,5644,180,LSVR,ms0.04_mm00_lsvr_C0.001_e0.1,180,Germline,0.1939,Intestine,0.1262,Uterine-vulval cells,0.1046,0.9402
+0.08,0,3856,178,LSVR,ms0.08_mm00_lsvr_C0.01_e0.1,178,Intestine,0.1858,Gonadal,0.1259,Uterine-vulval cells,0.1117,0.9106
+0.08,0,3856,178,LSVR,ms0.08_mm00_lsvr_C0.001_e0.1,178,Intestine,0.1408,Uterine-vulval cells,0.1252,Germline,0.1048,0.9171

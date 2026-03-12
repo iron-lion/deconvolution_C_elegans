@@ -1,0 +1,15 @@
+tissue_group,vol_fraction,nuclei_fraction
+Intestine,0.3542,0.0655
+Hypodermal cells,0.3038,0.188
+Muscle,0.1999,0.1003
+Gonadal,0.0601,0.0422
+Uterine-vulval cells,0.0349,0.0539
+Pharynx,0.0203,0.0729
+Neurons,0.0114,0.3189
+Spermatheca,0.0069,0.0507
+Spermatheca-Uterine junction,0.0023,0.0169
+Vulval cell,0.0021,0.0211
+Intestinal-rectal valve,0.0021,0.0095
+Glia,0.0008,0.057
+Distal tip cell,0.0007,0.0021
+Coelomocytes,0.0005,0.0011
