@@ -1,6 +1,7 @@
 # Deconvolution of single-worm omics data
 This project explores deconvolution of bulk omics data (especially single-worm proteomics) to resolve cellular and tissue composition in C. elegans at single-organism resolution. By integrating transcriptomic and proteomic datasets, we demonstrate how inferred cell-type proportions can serve as proxy readouts for aging-associated dynamics, opening new avenues for high-resolution organismal (populational) study.
 
+[Branch v0.1.0](https://github.com/iron-lion/deconvolution_C_elegans/tree/v0.1.0) contains the archived version corresponding to the published (at microPublication biology) version.
 - [Analysis Code for the manuscript](notebooks/deconvolution_for_pub.ipynb)
 - [Colab](https://colab.research.google.com/github/iron-lion/deconvolution_C_elegans/blob/main/misc/colab_deconvolution.ipynb) : Deconvolution with simple linear SVR
 
